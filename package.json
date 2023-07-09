@@ -1,0 +1,26 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./popular_modules/app.js",
+    "dev": "nodemon ./popular_modules/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Habeeb602/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Habeeb602/node/issues"
+  },
+  "homepage": "https://github.com/Habeeb602/node#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
