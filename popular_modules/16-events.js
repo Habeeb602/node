@@ -1,5 +1,5 @@
 // NodeJS is an event-driven program
-// event-driven means
+// event-driven means, every state
 // Mostly, we don't use this events explicitly, but alot of modules in node uses them highly.
 
 

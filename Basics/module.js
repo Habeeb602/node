@@ -7,8 +7,8 @@ const summa = require("./mind_grenade");
 
 // console.log(data);
 
-// for (let name in names) {
-//   sayHi(names[name]);
-// }
+for (let name in names) {
+  sayHi(names[name]);
+}
 
 // console.log(module);

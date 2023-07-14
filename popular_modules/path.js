@@ -12,5 +12,8 @@ console.log(path.basename(filePath));
 
 
 // resolve() gets the absolute path for the given paths in the args
-const absolutePath = path.resolve(__dirname, 'folder', 'subfolder', 'test.txt');
+const absolutePath = path.resolve('folder', 'subfolder', 'test.txt');
 console.log(absolutePath);
+// Difference between join & path
+const absoluteJoinPath = path.join('folder', 'subfolder', 'test.txt');
+console.log(absoluteJoinPath);
